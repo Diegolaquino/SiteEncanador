@@ -1,6 +1,10 @@
+/*Gerais*/
+
 body {
 	font-family: 'Open Sans', Helvetica, sans-serif;
-}
+	/* background-color: #edf2f7; */
+	/* background-color: #000;*/
+} 
 
 p {
 	font-family: Georgia, "Times New Roman", serif;
@@ -44,4 +48,71 @@ header{
 .header_menu ul li a:hover{
     border-bottom: 3px solid #fff;
     transition: all .2s ease;
+}
+
+/*Slide e imagem*/
+
+.slideTitulo{
+	width: 100%;
+	height: 380px;
+	background: url("../img/bg_slide1.jpg") no-repeat center;
+	background-size: cover;
+	margin-top: 72px;
+	text-align: center;
+	padding-top: 80px; 
+}
+
+.tituloH1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 500;
+	font-size: 48px;
+	margin-bottom: 5px;
+}
+
+.slideTitulo p{
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+/*Serviços*/
+
+.servicos h3{
+	text-align: center;
+	margin-top: 80px;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #3498db;
+}
+
+.imgservico{
+	float: left;
+}
+.imgservico img{
+	padding-right: 20px;
+}
+.lista_servicos{
+	margin-top: 40px;
+}
+
+.faixa{
+	background-color: #3498db;
+	position: absolute;
+	top: 85%;
+	width: 300px;
+	height: 60px;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.imgservico .texto{
+	color: #3498db;
+	width: 300px;
 }
