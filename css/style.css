@@ -46,7 +46,7 @@ header{
 }
 
 .header_menu ul li a:hover{
-    border-bottom: 3px solid #fff;
+    border-bottom: 2px solid #fff;
     transition: all .2s ease;
 }
 
