@@ -3,7 +3,7 @@
 body {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	/* background-color: #edf2f7; */
-	 background-color: #000;
+	 background-color: #edf2f7;
 } 
 
 p {
@@ -131,22 +131,64 @@ header{
 	margin-top: 40px;
 }
 
-.botao{
+.areaBotao{
 	padding-top: 20px;
+	padding-right: 50px;
 	text-align: center;
 	padding-bottom: 30px;
 	clear: both;
+
 }
 .btn{
 	background-color: #3498db;
 	width: 200px;
 	height: 20px;
-	padding: 15px 20px 15px 20px;
+	padding: 15px 30px 15px 30px;
 	color: #fff;
 	font-size: 14px;
 	line-height: 20px;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 600;
 	letter-spacing: .1em;
 	border-radius: 10px;
+}
+
+/*Frase*/
+
+.frase{
+	margin-top: 30px;
+}
+
+.quote-externo {
+	max-width: 280px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	color: #3498db;
+	padding-right: 30px;
+}
+
+.quote-externo p {
+	font-style: italic;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.quote-externo p:before, .quote-externo p:after {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: #3498db;
+	color:#3498db;
+	margin: 14px auto 10px auto;
+	padding-right: 60px;
+}
+
+.quote-externo cite {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: .1em;
+	margin-left: 79px;
+
 }
