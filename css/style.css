@@ -69,7 +69,6 @@ header{
 	font-weight: 500;
 	font-size: 48px;
 	margin-bottom: 5px;
-	
 }
 
 .slideTitulo p{
@@ -81,7 +80,7 @@ header{
 
 /*Serviços*/
 
-.servicos h3{
+.servicos h2{
 	text-align: center;
 	margin-top: 80px;
 	font-size: 18px;
@@ -191,4 +190,69 @@ header{
 	letter-spacing: .1em;
 	margin-left: 79px;
 
+}
+
+/*Rodapé*/
+
+
+.formasPg{
+	clear: both;
+	margin-top: 40px;
+	background-color: #3498db;
+	height: 60px;
+	padding-top: 10px;
+}
+
+.formasPg div{
+	padding-top: 8px;
+}
+
+.formasPg ul{
+	margin-left: 7%;
+}
+.formasPg ul li{
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.formasPg ul li:nth-last-child(5)
+{
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+footer{
+	background-color: #3498db;
+	width: 100%;
+	height: 50px;
+	padding-top: 10px;
+	text-align: center;
+	color: #fff;
+}
+
+span img{
+	position: fixed;
+	top: 87%;
+	left: 92%;
+}
+
+/*Página contato*/
+.bgContato{
+	background: url("../img/bg_contato.jpg") no-repeat center;
+	margin-top: 72px;
+	background-size: cover;
+	width: 100%;
+	height: 240px;
+}
+.bgContato h1{
+	text-align: left;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 500;
+	font-size: 48px;
+	margin-bottom: 5px;
+}
+.contato{
+	margin-top: 40px;
 }

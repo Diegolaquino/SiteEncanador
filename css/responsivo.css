@@ -5,7 +5,7 @@
         font-size: 38px;
     }
 
-    .servicos h3{  
+    .servicos h2{  
         font-size: 17px;
     }
 
@@ -27,10 +27,25 @@
         margin-top: 25px;
     }
 
+    .formasPg ul{
+        margin-left: 2%;
+    }
+
 } /* Final do estilo para tablets */
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 767px) {
+    .header_menu{
+        margin-left: 130px;
+
+    }
+    .tituloH1{
+        font-size: 35px;
+    }
+
+    .formasPg ul{
+        margin-left: 2%;
+    }
 
 
 } /* Final do estilo para smartphone 
